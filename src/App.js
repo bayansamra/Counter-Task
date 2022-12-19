@@ -11,7 +11,7 @@ function App() {
       <Counter input={2} />
       <Counter input={3} />
 
-      <Total/>      
+      <Total />      
 
     </div>
   );

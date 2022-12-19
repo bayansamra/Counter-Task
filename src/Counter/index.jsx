@@ -9,6 +9,8 @@ export default class Counter extends Component {
     input: parseInt(this.props.input),
   };
 
+  
+
   increment = () => {
     this.setState((prevState) => ({
       count: prevState.count + this.state.input,
