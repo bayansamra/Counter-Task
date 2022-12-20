@@ -12,7 +12,7 @@ class App extends Component {
     }
   }
 
-  changeTotal(number,method){
+  TotalSum(number,method){
     if(method === 'increase'){
       this.setState(prevState => ({total: prevState.total + number}))
     }
@@ -27,10 +27,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className='container'>
-          <Counter initialCount='2' changeTotal={(number,method)=>this.changeTotal(number,method)}/>
-          <Counter initialCount='4' changeTotal={(number,method)=>this.changeTotal(number,method)}/>
-          <Counter initialCount='6' changeTotal={(number,method)=>this.changeTotal(number,method)}/>
-          <Counter changeTotal={(number,method)=>this.changeTotal(number,method)} />
+          <Counter initialCount='2' TotalSum={(number,method)=>this.TotalSum(number,method)}/>
+          <Counter initialCount='4' TotalSum={(number,method)=>this.TotalSum(number,method)}/>
+          <Counter initialCount='6' TotalSum={(number,method)=>this.TotalSum(number,method)}/>
+          <Counter TotalSum={(number,method)=>this.TotalSum(number,method)} />
           <h3>{`Total Amount : ${this.state.total}`}</h3>
         </div>
       </div>
