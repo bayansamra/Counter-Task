@@ -31,7 +31,7 @@ class App extends Component {
           <Counter initialCount='4' changeTotal={(number,method)=>this.changeTotal(number,method)}/>
           <Counter initialCount='6' changeTotal={(number,method)=>this.changeTotal(number,method)}/>
           <Counter changeTotal={(number,method)=>this.changeTotal(number,method)} />
-          <h2>{`Total Amount ${this.state.total}`}</h2>
+          <h3>{`Total Amount : ${this.state.total}`}</h3>
         </div>
       </div>
     );
