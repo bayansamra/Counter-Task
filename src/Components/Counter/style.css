@@ -1,0 +1,32 @@
+
+.co-container{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+.co-num,
+.co-incr,
+.co-decr{
+    font-size: 2rem;
+}
+
+.counter-number{
+    margin-right: 2rem;
+}
+
+.co-incr{
+    background-color: #49c78e;
+    color: #fff;
+    border-radius: 0.2rem;
+    width: 3rem;
+    border: none;
+}
+.co-decr{
+    background-color: #f24667;
+    color: #fff;
+    border-radius: 0.2rem;
+    width: 3rem;
+    border: none;
+}
